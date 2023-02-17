@@ -202,11 +202,45 @@ nav {
 }
 
 .facts-content div {
-    border: 2px solid #FF900E;
+    border: 4px solid #FF900E;
     border-radius: 8px;
     width: 240px;
     text-align: center;
     padding: 40px;
+}
+
+.facts-content div:hover {
+    transform: scale(1.5);
+    transition-duration: 1s;
+
+    animation: borderAnimation 2s linear infinite;
+}
+
+@keyframes borderAnimation {
+    0% {
+        border: 4px solid #FF900E;
+    }
+
+    20% {
+        border: 4px solid #e5800d;
+    }
+
+    40% {
+        border: 4px solid #ba690c;
+    }
+
+    60% {
+        border: 4px solid #95540a;
+    }
+
+    80% {
+        border: 4px solid #643908;
+    }
+
+    100% {
+        border: 4px solid #462805;
+    }
+
 }
 
 .facts-content h3 {
@@ -339,7 +373,7 @@ footer {
     }
 
     .feature-list .container .flex {
-        flex-direction: column-reverse;
+        flex-direction: column;
     }
 
     .feature-list-content {
