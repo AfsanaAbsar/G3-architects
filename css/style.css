@@ -77,6 +77,9 @@ nav {
 .banner-img {}
 
 
+.feature-list {
+    padding-top: 70px;
+}
 
 .feauture-list-images {
     display: grid;
@@ -88,6 +91,43 @@ nav {
     width: 50%;
     padding: 50px;
 }
+
+
+.feature {
+    padding: 50px 0;
+}
+
+.feature-container {
+    justify-content: space-between;
+}
+
+.feature-content {
+    width: 50%;
+    padding-right: 60px;
+    padding-top: 80px;
+}
+
+.feature-content-title div {
+    border-left: 3px solid #FF900E;
+    padding-left: 10px;
+    margin-bottom: 40px;
+}
+
+.feature-content-description {
+    display: flex;
+    flex-direction: column;
+
+    padding-top: 40px;
+
+}
+
+.feature-content-description div {
+    margin-bottom: 50px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 4px 1px 20px 0px rgb(0 0 0 / 28%);
+}
+
 
 
 
