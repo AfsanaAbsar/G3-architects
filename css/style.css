@@ -129,6 +129,31 @@ nav {
 }
 
 
+.facts {
+    padding-top: 50px;
+}
+
+.facts-content {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+    padding-top: 70px;
+    margin-left: 80px;
+}
+
+.facts-content div {
+    border: 2px solid #FF900E;
+    border-radius: 8px;
+    width: 240px;
+    text-align: center;
+    padding: 40px;
+}
+
+.icon {
+    width: 45px;
+}
+
+
 
 
 
