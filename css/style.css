@@ -9,7 +9,7 @@ img {
 }
 
 body {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Work Sans', sans-serif;
 }
 
 .container {
@@ -224,4 +224,79 @@ footer {
 
 
 
-/*code for Responsive design */
+/*media query code for Responsive design */
+
+@media only screen and (max-width: 576px) {
+
+    nav {
+        flex-direction: column;
+    }
+
+    .menu {
+        padding-top: 20px;
+    }
+
+    .banner-content {
+        padding: 20px;
+    }
+
+    .feature-list .container .flex {
+        flex-direction: column-reverse;
+    }
+
+    .feature-list-content {
+        padding: 20px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .feauture-list-images {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .feature-container {
+        flex-direction: column;
+    }
+
+    .feature-content {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .feature-content-title {
+        text-align: center;
+
+    }
+
+    .feature-content-title h2 {
+        padding-bottom: 10px;
+    }
+
+    .feature-content-title div {
+        border-bottom: 3px solid #FF900E;
+        border-left: 0;
+    }
+
+    .facts-title {
+        text-align: center;
+        padding: 20px;
+    }
+
+    .facts-content {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .sponsors-title {
+        padding: 20px;
+    }
+
+    .sponsors-brand {
+        grid-template-columns: repeat(1, 1fr);
+
+
+    }
+
+    .brand-img {
+        padding: 20px 0;
+    }
+}
